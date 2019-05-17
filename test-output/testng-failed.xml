@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99TestSuite]">
+  <listeners>
+    <listener class-name="com.guru99.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="TestExcution(failed)">
+    <classes>
+      <class name="com.guru99.qa.tests.Day4">
+        <methods>
+          <include name="comparePhoneTest"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.guru99.qa.tests.Day4 -->
+    </classes>
+  </test> <!-- TestExcution(failed) -->
+</suite> <!-- Failed suite [Guru99TestSuite] -->

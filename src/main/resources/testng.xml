@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Guru99TestSuite" verbose="1" >
+
+<listeners>
+<listener
+		class-name="com.guru99.qa.ExtentReportListener.ExtentReportListener"/>
+</listeners>
+
+  <test name="TestExcution" >
+    <classes>
+       <class name="com.guru99.qa.tests.Day1" />
+       <class name="com.guru99.qa.tests.Day2" />
+       <class name="com.guru99.qa.tests.Day3" />
+       <class name="com.guru99.qa.tests.Day4" />
+       <class name="com.guru99.qa.tests.Day5" />
+    </classes>
+  </test>
+ 
+</suite>
